@@ -18,6 +18,7 @@
 		371B5A2E23D0B04500FAFAE9 /* NCMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B5A2D23D0B04500FAFAE9 /* NCMenu.swift */; };
 		3781B9B023DB2B7E006B4B1D /* AppDelegate+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3781B9AF23DB2B7E006B4B1D /* AppDelegate+Menu.swift */; };
 		8491B1CD273BBA82001C8C5B /* UIViewController+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491B1CC273BBA82001C8C5B /* UIViewController+Menu.swift */; };
+		AF2AC8CC27620F9300F249C7 /* XLForm in Frameworks */ = {isa = PBXBuildFile; productRef = AF2AC8CB27620F9300F249C7 /* XLForm */; };
 		AF2D7C7C2742556F00ADF566 /* NCShareLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D7C7B2742556F00ADF566 /* NCShareLinkCell.swift */; };
 		AF2D7C7E2742559100ADF566 /* NCShareUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D7C7D2742559100ADF566 /* NCShareUserCell.swift */; };
 		AF4BF614275629E20081CEEF /* NCManageDatabase+Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4BF613275629E20081CEEF /* NCManageDatabase+Account.swift */; };
@@ -38,6 +39,7 @@
 		AF817EF4274BC781009ED85B /* NCUserBaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF817EF0274BC781009ED85B /* NCUserBaseUrl.swift */; };
 		AF8ED1FC2757821000B8DBC4 /* NextcloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8ED1FB2757821000B8DBC4 /* NextcloudTests.swift */; };
 		AF8ED2032757822700B8DBC4 /* NCGlobalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8ED2022757822700B8DBC4 /* NCGlobalTests.swift */; };
+		AFBAAF9C27624148004DC610 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = AFBAAF9B27624148004DC610 /* OpenSSL */; };
 		D575039F27146F93008DC9DC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0D1342591FBC5008F8A13 /* String+Extensions.swift */; };
 		D5B6AA7827200C7200D49C24 /* NCActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6AA7727200C7200D49C24 /* NCActivityTableViewCell.swift */; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
@@ -78,21 +80,16 @@
 		F70B86772642CF5300ED5349 /* ChromaColorPicker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B866F2642CA9500ED5349 /* ChromaColorPicker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F70B86872642CF5600ED5349 /* TLPhotoPicker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867A2642CF5300ED5349 /* TLPhotoPicker.xcframework */; };
 		F70B86882642CF5600ED5349 /* TLPhotoPicker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867A2642CF5300ED5349 /* TLPhotoPicker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F70B86892642CF5600ED5349 /* XLForm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867B2642CF5300ED5349 /* XLForm.xcframework */; };
-		F70B868A2642CF5600ED5349 /* XLForm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867B2642CF5300ED5349 /* XLForm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F70B868B2642CF5600ED5349 /* Queuer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867C2642CF5300ED5349 /* Queuer.xcframework */; };
 		F70B868C2642CF5600ED5349 /* Queuer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867C2642CF5300ED5349 /* Queuer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F70B868D2642CF5600ED5349 /* UICKeyChainStore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867D2642CF5400ED5349 /* UICKeyChainStore.xcframework */; };
 		F70B868E2642CF5600ED5349 /* UICKeyChainStore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B867D2642CF5400ED5349 /* UICKeyChainStore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F70B86932642CF5700ED5349 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86802642CF5400ED5349 /* OpenSSL.xcframework */; };
-		F70B86942642CF5700ED5349 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86802642CF5400ED5349 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F70B86972642CF5700ED5349 /* TOPasscodeViewController.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86822642CF5500ED5349 /* TOPasscodeViewController.xcframework */; };
 		F70B86982642CF5700ED5349 /* TOPasscodeViewController.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86822642CF5500ED5349 /* TOPasscodeViewController.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F70B86992642CF5800ED5349 /* FSCalendar.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86832642CF5500ED5349 /* FSCalendar.xcframework */; };
 		F70B869A2642CF5800ED5349 /* FSCalendar.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86832642CF5500ED5349 /* FSCalendar.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F70B869B2642CF5800ED5349 /* DropDown.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86842642CF5500ED5349 /* DropDown.xcframework */; };
 		F70B869C2642CF5800ED5349 /* DropDown.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86842642CF5500ED5349 /* DropDown.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F70B869D2642CF6900ED5349 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B86802642CF5400ED5349 /* OpenSSL.xcframework */; };
 		F70BFC7420E0FA7D00C67599 /* NCUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BFC7320E0FA7C00C67599 /* NCUtility.swift */; };
 		F70BFC7520E0FA7D00C67599 /* NCUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BFC7320E0FA7C00C67599 /* NCUtility.swift */; };
 		F70CAE3A1F8CF31A008125FD /* NCEndToEndEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = F70CAE391F8CF31A008125FD /* NCEndToEndEncryption.m */; };
@@ -410,16 +407,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F716B75B26F0995200D37EFC /* KTVHTTPCache.xcframework in Embed Frameworks */,
 				F70B869A2642CF5800ED5349 /* FSCalendar.xcframework in Embed Frameworks */,
 				F70B868E2642CF5600ED5349 /* UICKeyChainStore.xcframework in Embed Frameworks */,
 				F70B86982642CF5700ED5349 /* TOPasscodeViewController.xcframework in Embed Frameworks */,
-				F70B86942642CF5700ED5349 /* OpenSSL.xcframework in Embed Frameworks */,
 				F716B75D26F0995200D37EFC /* KTVCocoaHTTPServer.xcframework in Embed Frameworks */,
 				F70B868C2642CF5600ED5349 /* Queuer.xcframework in Embed Frameworks */,
-				F70B868A2642CF5600ED5349 /* XLForm.xcframework in Embed Frameworks */,
 				F70B869C2642CF5800ED5349 /* DropDown.xcframework in Embed Frameworks */,
 				F70B86882642CF5600ED5349 /* TLPhotoPicker.xcframework in Embed Frameworks */,
+				F716B75B26F0995200D37EFC /* KTVHTTPCache.xcframework in Embed Frameworks */,
 				F70B86772642CF5300ED5349 /* ChromaColorPicker.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -838,7 +833,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F70B869D2642CF6900ED5349 /* OpenSSL.xcframework in Frameworks */,
 				F73ADD2126554F8E0069EA0D /* SwiftEntryKit in Frameworks */,
 				F75E57BF25BF0EC8002B72C2 /* SVGKit in Frameworks */,
 				F782A585251236B7007BBABD /* RealmSwift in Frameworks */,
@@ -870,12 +864,12 @@
 				F70B86972642CF5700ED5349 /* TOPasscodeViewController.xcframework in Frameworks */,
 				F788ECC7263AAAFA00ADC67F /* MarkdownKit in Frameworks */,
 				F70B869B2642CF5800ED5349 /* DropDown.xcframework in Frameworks */,
-				F70B86892642CF5600ED5349 /* XLForm.xcframework in Frameworks */,
 				F770768E263A8C3400A1BA94 /* FloatingPanel in Frameworks */,
 				F786D58D253454BF00E3DD7B /* NCCommunication in Frameworks */,
 				F70B868B2642CF5600ED5349 /* Queuer.xcframework in Frameworks */,
 				F716B75C26F0995200D37EFC /* KTVCocoaHTTPServer.xcframework in Frameworks */,
 				F782A57B25123694007BBABD /* Realm in Frameworks */,
+				AFBAAF9C27624148004DC610 /* OpenSSL in Frameworks */,
 				F716B75A26F0995200D37EFC /* KTVHTTPCache.xcframework in Frameworks */,
 				F75E57BD25BF0EC1002B72C2 /* SVGKit in Frameworks */,
 				F70B86752642CE3B00ED5349 /* FirebaseCrashlytics in Frameworks */,
@@ -885,7 +879,7 @@
 				F73521B527396D2900919197 /* IHProgressHUD in Frameworks */,
 				F72DA9B425F53E4E00B87DB1 /* SwiftRichString in Frameworks */,
 				F7F5CE252707089C007ED1CD /* Parchment in Frameworks */,
-				F70B86932642CF5700ED5349 /* OpenSSL.xcframework in Frameworks */,
+				AF2AC8CC27620F9300F249C7 /* XLForm in Frameworks */,
 				F73ADD1C265546890069EA0D /* SwiftEntryKit in Frameworks */,
 				F70B868D2642CF5600ED5349 /* UICKeyChainStore.xcframework in Frameworks */,
 				F782A57D25123694007BBABD /* RealmSwift in Frameworks */,
@@ -1849,6 +1843,8 @@
 				F75EAED726D2552E00F4320E /* MarqueeLabel */,
 				F7F5CE242707089C007ED1CD /* Parchment */,
 				F73521B427396D2900919197 /* IHProgressHUD */,
+				AF2AC8CB27620F9300F249C7 /* XLForm */,
+				AFBAAF9B27624148004DC610 /* OpenSSL */,
 			);
 			productName = "Crypto Cloud";
 			productReference = F7CE8AFA1DC1F8D8009CAE48 /* Nextcloud.app */;
@@ -1969,6 +1965,8 @@
 				F75EAED626D2552E00F4320E /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
 				F7F5CE232707089B007ED1CD /* XCRemoteSwiftPackageReference "Parchment" */,
 				F73521B327396D2800919197 /* XCRemoteSwiftPackageReference "IHProgressHUD" */,
+				AF2AC8CA27620F9300F249C7 /* XCRemoteSwiftPackageReference "XLForm" */,
+				AFBAAF9A27624148004DC610 /* XCRemoteSwiftPackageReference "OpenSSL" */,
 			);
 			productRefGroup = F7F67B9F1A24D27800EE80DA;
 			projectDirPath = "";
@@ -3139,6 +3137,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AF2AC8CA27620F9300F249C7 /* XCRemoteSwiftPackageReference "XLForm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/XLForm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+		AFBAAF9A27624148004DC610 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/666tos/OpenSSL";
+			requirement = {
+				branch = legacy1.0.2;
+				kind = branch;
+			};
+		};
 		F70B86732642CE3B00ED5349 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -3238,6 +3252,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AF2AC8CB27620F9300F249C7 /* XLForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2AC8CA27620F9300F249C7 /* XCRemoteSwiftPackageReference "XLForm" */;
+			productName = XLForm;
+		};
+		AFBAAF9B27624148004DC610 /* OpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFBAAF9A27624148004DC610 /* XCRemoteSwiftPackageReference "OpenSSL" */;
+			productName = OpenSSL;
+		};
 		F70B86742642CE3B00ED5349 /* FirebaseCrashlytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F70B86732642CE3B00ED5349 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
